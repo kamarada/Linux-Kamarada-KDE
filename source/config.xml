@@ -23,10 +23,10 @@
     <locale>en_US</locale>
   </preferences>
   <users group='root'>
-    <user name='root' pwd='$1$QqjBAvFT$8Vs7DnRI0kgWGhgpBjO0X.' home='/root' shell='/bin/bash'/>
+    <user name='root' pwd='$1$pBgBaTbb$6./Yk7Z.u31R1gVLbmSFA1' home='/root' shell='/bin/bash'/>
   </users>
   <users group='users'>
-    <user name='tux' pwd='$1$kdCbRQOH$hC6EYGFX.51lspbN2A4TD/' home='/home/tux' shell='/bin/bash'/>
+    <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
     <package name='kdebase4-openSUSE'/>
@@ -74,10 +74,10 @@
     <package name='glibc-locale'/>
     <package name='module-init-tools'/>
   </packages>
-  <repository type='rpm-md'>
-    <source path='http://download.opensuse.org/repositories/openSUSE:/Leap:/42.1/standard/'/>
+  <repository type='yast2'>
+    <source path='http://download.opensuse.org/distribution/leap/42.2/repo/oss/'/>
   </repository>
   <repository type='rpm-md'>
-    <source path='http://download.opensuse.org/update/leap/42.1/oss/'/>
+    <source path='http://download.opensuse.org/update/leap/42.2/oss/'/>
   </repository>
 </image>
