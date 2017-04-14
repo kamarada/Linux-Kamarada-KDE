@@ -13,7 +13,7 @@
         <oem-boot-title>Linux Kamarada 42.2 KDE</oem-boot-title>
       </oemconfig>
     </type>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <packagemanager>zypper</packagemanager>
     <rpm-check-signatures>false</rpm-check-signatures>
     <rpm-force>false</rpm-force>
@@ -29,11 +29,38 @@
     <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='patterns-openSUSE-imaging_opt'/>
+    <package name='patterns-openSUSE-imaging'/>
+    <package name='patterns-openSUSE-yast2_basis'/>
+    <package name='patterns-openSUSE-x11_opt'/>
+    <package name='patterns-openSUSE-sw_management_kde'/>
+    <package name='patterns-openSUSE-sw_management'/>
+    <package name='patterns-openSUSE-office_opt'/>
+    <package name='patterns-openSUSE-office'/>
+    <package name='patterns-openSUSE-non_oss_opt'/>
+    <package name='patterns-openSUSE-non_oss'/>
+    <package name='patterns-openSUSE-multimedia_opt'/>
+    <package name='patterns-openSUSE-multimedia'/>
+    <package name='patterns-openSUSE-kde_yast'/>
+    <package name='patterns-openSUSE-kde_utilities_opt'/>
+    <package name='patterns-openSUSE-kde_utilities'/>
+    <package name='patterns-openSUSE-kde_plasma'/>
+    <package name='patterns-openSUSE-kde_office'/>
+    <package name='patterns-openSUSE-kde_multimedia'/>
+    <package name='patterns-openSUSE-kde_internet'/>
+    <package name='patterns-openSUSE-kde_imaging'/>
+    <package name='patterns-openSUSE-kde_games'/>
+    <package name='patterns-openSUSE-games'/>
+    <package name='patterns-openSUSE-fonts_opt'/>
+    <package name='patterns-openSUSE-fonts'/>
+    <package name='patterns-openSUSE-enhanced_base_opt'/>
+    <package name='patterns-openSUSE-enhanced_base'/>
+    <package name='patterns-openSUSE-apparmor_opt'/>
+    <package name='patterns-openSUSE-apparmor'/>
     <package name='patterns-openSUSE-x11'/>
     <package name='grub'/>
     <package name='kdebase4-openSUSE'/>
     <package name='patterns-openSUSE-kde'/>
-    <package name='patterns-openSUSE-minimal_base'/>
     <package name='sddm'/>
     <package name='konsole'/>
     <package name='libyui-qt-pkg7'/>

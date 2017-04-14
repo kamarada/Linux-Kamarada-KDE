@@ -17,7 +17,7 @@
             <oem-boot-title>Linux Kamarada 42.2 KDE</oem-boot-title>
           </oemconfig>
         </type>
-        <version>0.0.3</version>
+        <version>0.0.4</version>
         <packagemanager>ensconce</packagemanager>
         <rpm-check-signatures>false</rpm-check-signatures>
         <rpm-force>false</rpm-force>
@@ -39,11 +39,38 @@
         <source path="http://download.opensuse.org/update/leap/42.2/oss/"/>
       </repository>
       <packages type="image" patternType="onlyRequired">
+        <package name="patterns-openSUSE-imaging_opt"/>
+        <package name="patterns-openSUSE-imaging"/>
+        <package name="patterns-openSUSE-yast2_basis"/>
+        <package name="patterns-openSUSE-x11_opt"/>
+        <package name="patterns-openSUSE-sw_management_kde"/>
+        <package name="patterns-openSUSE-sw_management"/>
+        <package name="patterns-openSUSE-office_opt"/>
+        <package name="patterns-openSUSE-office"/>
+        <package name="patterns-openSUSE-non_oss_opt"/>
+        <package name="patterns-openSUSE-non_oss"/>
+        <package name="patterns-openSUSE-multimedia_opt"/>
+        <package name="patterns-openSUSE-multimedia"/>
+        <package name="patterns-openSUSE-kde_yast"/>
+        <package name="patterns-openSUSE-kde_utilities_opt"/>
+        <package name="patterns-openSUSE-kde_utilities"/>
+        <package name="patterns-openSUSE-kde_plasma"/>
+        <package name="patterns-openSUSE-kde_office"/>
+        <package name="patterns-openSUSE-kde_multimedia"/>
+        <package name="patterns-openSUSE-kde_internet"/>
+        <package name="patterns-openSUSE-kde_imaging"/>
+        <package name="patterns-openSUSE-kde_games"/>
+        <package name="patterns-openSUSE-games"/>
+        <package name="patterns-openSUSE-fonts_opt"/>
+        <package name="patterns-openSUSE-fonts"/>
+        <package name="patterns-openSUSE-enhanced_base_opt"/>
+        <package name="patterns-openSUSE-enhanced_base"/>
+        <package name="patterns-openSUSE-apparmor_opt"/>
+        <package name="patterns-openSUSE-apparmor"/>
         <package name="patterns-openSUSE-x11"/>
         <package name="grub"/>
         <package name="kdebase4-openSUSE"/>
         <package name="patterns-openSUSE-kde"/>
-        <package name="patterns-openSUSE-minimal_base"/>
         <package name="sddm"/>
         <package name="konsole"/>
         <package name="libyui-qt-pkg7"/>
@@ -91,7 +118,7 @@
   <extra_config name="Linux_Kamarada_42.2_KDE">
     <appliance_id>1703424</appliance_id>
     <arch>x86_64</arch>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <logo>02/d3230a1e4c9773cc12fa74982a16d2</logo>
     <background>ee/74452ca646d75e5516fe5db8836e76</background>
     <base_system>Leap_42.1</base_system>
@@ -108,7 +135,7 @@
       <language>en_US.UTF-8</language>
       <keytable>us.map.gz</keytable>
     </locale>
-    <estimated_size>2110</estimated_size>
+    <estimated_size>2120</estimated_size>
     <size_offset>0</size_offset>
     <non_interactive/>
     <oem_disk_size>16G</oem_disk_size>
