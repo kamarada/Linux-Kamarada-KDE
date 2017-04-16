@@ -29,6 +29,11 @@
     <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='ksudoku'/>
+    <package name='kmines'/>
+    <package name='kpat'/>
+    <package name='kreversi'/>
+    <package name='kmahjongg'/>
     <package name='libqt5-qttools'/>
     <package name='libqt5-linguist'/>
     <package name='patterns-openSUSE-imaging_opt'/>
