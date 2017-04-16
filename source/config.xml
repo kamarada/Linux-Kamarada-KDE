@@ -29,6 +29,16 @@
     <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='catdoc'/>
+    <package name='okular'/>
+    <package name='libreoffice-writer'/>
+    <package name='libreoffice'/>
+    <package name='libreoffice-impress'/>
+    <package name='libreoffice-calc'/>
+    <package name='libreoffice-base'/>
+    <package name='korganizer5'/>
+    <package name='kontact5'/>
+    <package name='kaddressbook5'/>
     <package name='kscd'/>
     <package name='k3b'/>
     <package name='dragonplayer'/>
