@@ -29,6 +29,11 @@
     <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='yast2'/>
+    <package name='libqt4-x11'/>
+    <package name='cups'/>
+    <package name='java-1_8_0-openjdk-plugin'/>
+    <package name='systemsettings5'/>
     <package name='catdoc'/>
     <package name='okular'/>
     <package name='libreoffice-writer'/>
