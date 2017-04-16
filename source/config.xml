@@ -29,6 +29,16 @@
     <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='xterm'/>
+    <package name='system-config-printer'/>
+    <package name='java-1_8_0-openjdk-headless'/>
+    <package name='kwalletmanager5'/>
+    <package name='ksysguard5'/>
+    <package name='kget'/>
+    <package name='yast2-packager'/>
+    <package name='kinfocenter5'/>
+    <package name='dolphin'/>
+    <package name='ark'/>
     <package name='yast2'/>
     <package name='libqt4-x11'/>
     <package name='cups'/>
