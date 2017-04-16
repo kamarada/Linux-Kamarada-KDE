@@ -29,6 +29,10 @@
     <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='skanlite'/>
+    <package name='libreoffice-draw'/>
+    <package name='gwenview5'/>
+    <package name='gimp'/>
     <package name='ksudoku'/>
     <package name='kmines'/>
     <package name='kpat'/>
