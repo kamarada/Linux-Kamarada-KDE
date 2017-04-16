@@ -13,7 +13,7 @@
         <oem-boot-title>Linux Kamarada 42.2 KDE</oem-boot-title>
       </oemconfig>
     </type>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
     <packagemanager>zypper</packagemanager>
     <rpm-check-signatures>false</rpm-check-signatures>
     <rpm-force>false</rpm-force>
@@ -29,6 +29,19 @@
     <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='sweeper'/>
+    <package name='spectacle'/>
+    <package name='kwrite'/>
+    <package name='kruler'/>
+    <package name='kompare'/>
+    <package name='knotes5'/>
+    <package name='kmousetool'/>
+    <package name='kmag'/>
+    <package name='kleopatra5'/>
+    <package name='kgpg'/>
+    <package name='kcolorchooser'/>
+    <package name='kcharselect'/>
+    <package name='kcalc'/>
     <package name='xterm'/>
     <package name='system-config-printer'/>
     <package name='java-1_8_0-openjdk-headless'/>
