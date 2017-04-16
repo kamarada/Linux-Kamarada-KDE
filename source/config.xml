@@ -29,6 +29,14 @@
     <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='kopete'/>
+    <package name='konversation'/>
+    <package name='konqueror'/>
+    <package name='plasma5-desktop'/>
+    <package name='kmail5'/>
+    <package name='MozillaFirefox'/>
+    <package name='kdepim'/>
+    <package name='akregator5'/>
     <package name='skanlite'/>
     <package name='libreoffice-draw'/>
     <package name='gwenview5'/>
