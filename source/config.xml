@@ -29,6 +29,10 @@
     <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='kscd'/>
+    <package name='k3b'/>
+    <package name='dragonplayer'/>
+    <package name='amarok'/>
     <package name='kopete'/>
     <package name='konversation'/>
     <package name='konqueror'/>
