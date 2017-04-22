@@ -13,7 +13,7 @@
         <oem-boot-title>Linux Kamarada 42.2 KDE</oem-boot-title>
       </oemconfig>
     </type>
-    <version>0.0.8</version>
+    <version>0.0.12</version>
     <packagemanager>zypper</packagemanager>
     <rpm-check-signatures>false</rpm-check-signatures>
     <rpm-force>false</rpm-force>
@@ -23,12 +23,13 @@
     <locale>en_US</locale>
   </preferences>
   <users group='root'>
-    <user name='root' pwd='$1$pBgBaTbb$6./Yk7Z.u31R1gVLbmSFA1' home='/root' shell='/bin/bash'/>
-  </users>
-  <users group='users'>
-    <user name='tux' pwd='$1$hHDjKEbf$K12eoufeRBa.EjBbOT7541' home='/home/tux' shell='/bin/bash'/>
+    <user name='root' pwd='$1$cXqYzmQh$E5n.cUaza3WK9KwQchR7h.' home='/root' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='xdg-utils'/>
+    <package name='kde-cli-tools5'/>
+    <package name='yast2-sudo'/>
+    <package name='sudo'/>
     <package name='wpa_supplicant'/>
     <package name='wireless-regdb'/>
     <package name='pcmciautils'/>
