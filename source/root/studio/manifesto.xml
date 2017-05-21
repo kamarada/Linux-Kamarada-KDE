@@ -222,7 +222,7 @@
       <source path="http://download.opensuse.org/update/leap/42.2/oss/" internal="false"/>
       <name>leap 42.2 updates</name>
     </repository>
-    <network config="dhcp">
+    <network config="network_manager">
     </network>
     <startup_programs>
     </startup_programs>
