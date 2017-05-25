@@ -53,3 +53,8 @@ zypper addrepo -d -K -n "openSUSE-Leap-42.2-Update-Debug" http://download.opensu
 zypper addrepo -d -K -n "openSUSE-Leap-42.2-Update-Debug-Non-Oss" http://download.opensuse.org/debug/update/leap/42.2/non-oss/ repo-debug-update-non-oss
 zypper addrepo -d -K -n "openSUSE-Leap-42.2-Source" http://download.opensuse.org/source/distribution/leap/42.2/repo/oss/ repo-source
 zypper addrepo -d -K -n "openSUSE-Leap-42.2-Source-Non-Oss" http://download.opensuse.org/source/distribution/leap/42.2/repo/non-oss/ repo-source-non-oss
+
+# bug 989897, avoid creating desktop directory on KDE so that the default items are added on first login
+cp /usr/share/applications/live-installer.desktop /usr/share/kio_desktop/DesktopLinks/
+# Set the application as being "trusted"
+chmod a+x /usr/share/kio_desktop/DesktopLinks/live-installer.desktop
