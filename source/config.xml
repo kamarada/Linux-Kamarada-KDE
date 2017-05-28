@@ -6,14 +6,21 @@
     <specification>openSUSE Leap 42.1 KDE 4</specification>
   </description>
   <preferences>
-    <type checkprebuilt='true' boot='oemboot/suse-leap42.1' fsnocheck='true' filesystem='ext3' bootloader='grub2' image='oem'>
-      <oemconfig>
-        <oem-swap>true</oem-swap>
-        <oem-swapsize>512</oem-swapsize>
-        <oem-boot-title>Linux Kamarada 42.2 KDE</oem-boot-title>
-      </oemconfig>
+    <type checkprebuilt='true' boot='isoboot/suse-leap42.1' fsnocheck='true' bootloader='grub2' firmware='uefi' flags='overlay' hybrid='true' image='iso'>
+      <split>
+        <temporary>
+          <file name='/var'/>
+          <file name='/var/*'/>
+          <file name='/etc'/>
+          <file name='/etc/*'/>
+          <file name='/tmp'/>
+          <file name='/tmp/*'/>
+          <file name='/home'/>
+          <file name='/home/*'/>
+        </temporary>
+      </split>
     </type>
-    <version>0.0.15</version>
+    <version>0.0.16</version>
     <packagemanager>zypper</packagemanager>
     <rpm-check-signatures>false</rpm-check-signatures>
     <rpm-force>false</rpm-force>
@@ -26,6 +33,8 @@
     <user name='root' pwd='$1$cXqYzmQh$E5n.cUaza3WK9KwQchR7h.' home='/root' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='shim' bootinclude='true'/>
+    <package name='grub2-x86_64-efi'/>
     <package name='xdg-utils'/>
     <package name='kde-cli-tools5'/>
     <package name='yast2-sudo'/>
@@ -168,6 +177,9 @@
     <package name='gsettings-backend-dconf'/>
     <package name='glibc'/>
     <package name='glibc-locale'/>
+    <package name='yast2-live-installer'/>
+    <package name='yast2-users'/>
+    <package name='btrfsprogs'/>
     <archive name='plymouth.tar' bootinclude='true'/>
     <package name='gfxboot-devel' bootinclude='true'/>
     <archive name='sddm.tar'/>

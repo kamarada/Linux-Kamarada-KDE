@@ -9,11 +9,11 @@
 # Contact: feedback@susestudio.com
 # ============================================================================
 
-image_file='image/Linux_Kamarada_42.2_KDE.x86_64-0.0.15.raw'
+image_file='image/Linux_Kamarada_42.2_KDE.x86_64-0.0.16.iso'
 image_arch='x86_64'
 schema_ver='5.2'
 base_system='Leap_42.1'
-uefi_enabled='false'
+uefi_enabled='true'
 declare -a repos=()
 
 dir="$(dirname $0)"
