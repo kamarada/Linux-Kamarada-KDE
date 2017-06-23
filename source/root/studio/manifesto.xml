@@ -43,6 +43,25 @@
         <source path="http://download.opensuse.org/update/leap/42.2/oss/"/>
       </repository>
       <packages type="image" patternType="onlyRequired">
+        <package name="yast2-branding-openSUSE"/>
+        <package name="wallpaper-branding-openSUSE"/>
+        <package name="systemd-presets-branding-openSUSE"/>
+        <package name="sddm-branding-openSUSE"/>
+        <package name="plymouth-branding-openSUSE"/>
+        <package name="plasma5-workspace-branding-openSUSE"/>
+        <package name="PackageKit-branding-openSUSE"/>
+        <package name="NetworkManager-branding-openSUSE"/>
+        <package name="MozillaFirefox-branding-openSUSE"/>
+        <package name="libreoffice-branding-upstream"/>
+        <package name="libpurple-branding-openSUSE"/>
+        <package name="ksplashx-branding-openSUSE"/>
+        <package name="ksplash-qml-branding-openSUSE"/>
+        <package name="kdelibs4-branding-openSUSE"/>
+        <package name="hicolor-icon-theme-branding-openSUSE"/>
+        <package name="gtk3-branding-openSUSE"/>
+        <package name="gio-branding-openSUSE"/>
+        <package name="gconf2-branding-openSUSE"/>
+        <package name="gtk2-branding-openSUSE"/>
         <package name="shim" bootinclude="true"/>
         <package name="grub2-x86_64-efi"/>
         <package name="xdg-utils"/>
@@ -221,7 +240,7 @@
       <language>en_US.UTF-8</language>
       <keytable>us.map.gz</keytable>
     </locale>
-    <estimated_size>3760</estimated_size>
+    <estimated_size>3820</estimated_size>
     <size_offset>0</size_offset>
     <non_interactive/>
     <oem_disk_size>16G</oem_disk_size>
