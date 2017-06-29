@@ -33,6 +33,26 @@
     <user name='root' pwd='$1$cXqYzmQh$E5n.cUaza3WK9KwQchR7h.' home='/root' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='libreoffice-kde4'/>
+    <package name='yast2-branding-openSUSE'/>
+    <package name='wallpaper-branding-openSUSE'/>
+    <package name='systemd-presets-branding-openSUSE'/>
+    <package name='sddm-branding-openSUSE'/>
+    <package name='plymouth-branding-openSUSE'/>
+    <package name='plasma5-workspace-branding-openSUSE'/>
+    <package name='PackageKit-branding-openSUSE'/>
+    <package name='NetworkManager-branding-openSUSE'/>
+    <package name='MozillaFirefox-branding-openSUSE'/>
+    <package name='libreoffice-branding-upstream'/>
+    <package name='libpurple-branding-openSUSE'/>
+    <package name='ksplashx-branding-openSUSE'/>
+    <package name='ksplash-qml-branding-openSUSE'/>
+    <package name='kdelibs4-branding-openSUSE'/>
+    <package name='hicolor-icon-theme-branding-openSUSE'/>
+    <package name='gtk3-branding-openSUSE'/>
+    <package name='gio-branding-openSUSE'/>
+    <package name='gconf2-branding-openSUSE'/>
+    <package name='gtk2-branding-openSUSE'/>
     <package name='shim' bootinclude='true'/>
     <package name='grub2-x86_64-efi'/>
     <package name='xdg-utils'/>
