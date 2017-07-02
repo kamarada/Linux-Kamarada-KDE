@@ -20,7 +20,7 @@
         </temporary>
       </split>
     </type>
-    <version>0.0.20</version>
+    <version>0.0.21</version>
     <packagemanager>zypper</packagemanager>
     <rpm-check-signatures>false</rpm-check-signatures>
     <rpm-force>false</rpm-force>
@@ -99,7 +99,6 @@
     <package name='cups'/>
     <package name='java-1_8_0-openjdk-plugin'/>
     <package name='systemsettings5'/>
-    <package name='catdoc'/>
     <package name='okular'/>
     <package name='libreoffice-writer'/>
     <package name='libreoffice'/>
