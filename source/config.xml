@@ -33,6 +33,7 @@
     <user name='root' pwd='$1$cXqYzmQh$E5n.cUaza3WK9KwQchR7h.' home='/root' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='nano'/>
     <package name='libreoffice-kde4'/>
     <package name='yast2-branding-openSUSE'/>
     <package name='wallpaper-branding-openSUSE'/>
