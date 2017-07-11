@@ -43,6 +43,9 @@
         <source path="http://download.opensuse.org/update/leap/42.2/oss/"/>
       </repository>
       <packages type="image" patternType="onlyRequired">
+        <package name="vlc"/>
+        <package name="phonon4qt5-backend-vlc"/>
+        <package name="phonon-backend-vlc"/>
         <package name="kolourpaint"/>
         <package name="gparted"/>
         <package name="hplip"/>
@@ -246,7 +249,7 @@
       <language>en_US.UTF-8</language>
       <keytable>us.map.gz</keytable>
     </locale>
-    <estimated_size>3880</estimated_size>
+    <estimated_size>3940</estimated_size>
     <size_offset>0</size_offset>
     <non_interactive/>
     <oem_disk_size>16G</oem_disk_size>

@@ -33,6 +33,9 @@
     <user name='root' pwd='$1$cXqYzmQh$E5n.cUaza3WK9KwQchR7h.' home='/root' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='vlc'/>
+    <package name='phonon4qt5-backend-vlc'/>
+    <package name='phonon-backend-vlc'/>
     <package name='kolourpaint'/>
     <package name='gparted'/>
     <package name='hplip'/>
