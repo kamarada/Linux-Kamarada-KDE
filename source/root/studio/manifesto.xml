@@ -43,6 +43,8 @@
         <source path="http://download.opensuse.org/update/leap/42.2/oss/"/>
       </repository>
       <packages type="image" patternType="onlyRequired">
+        <package name="kaccounts-providers"/>
+        <package name="kaccounts-integration"/>
         <package name="kio_kamera"/>
         <package name="kde-print-manager"/>
         <package name="kdeconnect-kde"/>
@@ -272,7 +274,7 @@
       <language>en_US.UTF-8</language>
       <keytable>us.map.gz</keytable>
     </locale>
-    <estimated_size>4630</estimated_size>
+    <estimated_size>4650</estimated_size>
     <size_offset>0</size_offset>
     <non_interactive/>
     <oem_disk_size>16G</oem_disk_size>
