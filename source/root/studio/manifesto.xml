@@ -43,6 +43,7 @@
         <source path="http://download.opensuse.org/update/leap/42.2/oss/"/>
       </repository>
       <packages type="image" patternType="onlyRequired">
+        <package name="plasma5-pk-updates"/>
         <package name="libreoffice-templates-presentation-layouts"/>
         <package name="libreoffice-templates-labels-letter"/>
         <package name="libreoffice-templates-labels-a4"/>
