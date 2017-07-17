@@ -33,6 +33,7 @@
     <user name='root' pwd='$1$cXqYzmQh$E5n.cUaza3WK9KwQchR7h.' home='/root' shell='/bin/bash'/>
   </users>
   <packages type='image' patternType='onlyRequired'>
+    <package name='yast2-metapackage-handler'/>
     <package name='libreoffice-icon-theme-breeze'/>
     <package name='kfind'/>
     <package name='plasma5-pk-updates'/>
